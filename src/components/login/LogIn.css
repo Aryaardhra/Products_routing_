@@ -1,0 +1,22 @@
+.main{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    padding: 10px;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    box-shadow: 5px 4px 5px 4px rgb(65,48,48);
+    border-radius: 40px;
+    background-color:rgb(215, 205, 205);
+    padding: 10px;
+}
+
+.span_in{
+    color: red;
+    font-size: 22px;
+}
