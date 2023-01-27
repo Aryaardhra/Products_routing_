@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar';
 
-
 export default function Header({showParam}){
   
   return (
@@ -11,13 +10,13 @@ export default function Header({showParam}){
             <div className=" row g-0 ">
             <div className="  col-md-6">
             <span style={{fontSize:'37px'}}>PRODUCTS</span>
-                </div>
+            </div>
                 <div className="  active col-md-6 " >
-             {showParam && <Navbar/>}
-            </div>
+                  {showParam && <Navbar/>}
                 </div>
-                </div>
-            </div>
+           </div>
+        </div>
+     </div>
     </>
   );
 }

@@ -6,11 +6,9 @@ import Swal from 'sweetalert2'
 export default function LogIn() {
 
   const navigateTo = useNavigate();
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   
-
   function handleLogin(e) {
    
     e.preventDefault();
@@ -23,7 +21,6 @@ export default function LogIn() {
         text: "Something went wrong!",
         footer: "<em>Username and Password do not match!</em>",
       });
- 
   }
 
   return (

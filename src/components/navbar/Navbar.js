@@ -32,7 +32,7 @@ export default function Navbar() {
         <NavLink to="/contact">Contact </NavLink>
         </li>
         <li className="nav-item active nav-link">
-          <NavLink to="/productsList">Products</NavLink>  
+          <NavLink to="/CategorizedProducts">Products</NavLink>  
         </li>&nbsp;&nbsp;
         
         <button onClick={()=>{
